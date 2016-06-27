@@ -47,7 +47,7 @@ You can improve the user-experience by plugging into Aurelia's router pipeline w
         config.addPipelineStep('authorize', AuthorizeStep);
         config.map([
           { route: ['welcome'], moduleId: 'welcome', title: 'Welcome', settings: { roles: [] } },
-          { route: 'admin', moduleId: 'admin', title: 'Admin' settings: { roles: ['admin'] } }
+          { route: 'admin', moduleId: 'admin', title: 'Admin', settings: { roles: ['admin'] } }
         ]);
       }
     }
